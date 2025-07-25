@@ -17,3 +17,8 @@ k8s:
   label: k8s
   permalink: /k8s
   description: Kubernetes
+
+aws-step-functions:
+  label: aws-step-functions
+  permalink: /aws-step-functions
+  description: AWS Step Functions
