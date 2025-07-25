@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[121],{8070:s=>{s.exports=JSON.parse('{"tags":[{"label":"aws","permalink":"/blog/tags/aws","description":"Amazon Web Services","count":1},{"label":"finops","permalink":"/blog/tags/finops","description":"FinOps","count":1}]}')}}]);
