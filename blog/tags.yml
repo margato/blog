@@ -1,0 +1,19 @@
+aws:
+  label: aws
+  permalink: /aws
+  description: Amazon Web Services
+
+distributed-systems:
+  label: distributed-systems
+  permalink: /distributed-systems
+  description: Distributed Systems
+
+finops:
+  label: finops
+  permalink: /finops
+  description: FinOps
+
+k8s:
+  label: k8s
+  permalink: /k8s
+  description: Kubernetes
