@@ -1,11 +1,11 @@
 ---
 slug: aws-step-functions-sequential-loop
-title: Implementando loop sequencial condicional no AWS Step Functions
+title:  Implementing
 authors: margato
 tags: [aws, aws-step-functions]
 ---
 
-This is the summary of a very long blog post,
+This is the xxxxxxxxxxxx of a very long blog post,
 
 Use a `<!--` `truncate` `-->` comment to limit blog post size in the list view.
 
