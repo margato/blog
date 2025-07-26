@@ -38,15 +38,15 @@ const config = {
     // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'pt',
-        locales: ['en', 'pt'],
+        locales: ['pt', 'en'],
         localeConfigs: {
-            en: {
-                label: 'English',
-                htmlLang: "en-US"
-            },
             'pt': {
                 label: 'Português',
                 htmlLang: "pt-BR"
+            },
+            en: {
+                label: 'English',
+                htmlLang: "en-US"
             },
         },
     },
@@ -83,13 +83,17 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'Osvaldo Margato',
+                title: "Os",
                 logo: {
-                    alt: 'My Site Logo',
+                    alt: 'Osvaldo Margato Logo',
                     src: 'img/logo.svg',
                 },
                 items: [
-                    { to: '/blog', label: 'Blog', position: 'left' },
+                    {
+                        to: '/blog',
+                        label: 'Blog',
+                        position: 'right'
+                    },
                     {
                         type: 'localeDropdown',
                         position: 'right',
@@ -100,23 +104,6 @@ const config = {
                 style: 'light',
                 links: [
                     {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'X',
-                                href: 'https://x.com/docusaurus',
-                            },
-                        ],
-                    },
-                    {
                         title: 'More',
                         items: [
                             {
@@ -125,7 +112,11 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                href: 'https://github.com/margato/blog',
+                            },
+                            {
+                                label: 'Linkedin',
+                                href: 'https://linkedin.com/in/margato',
                             },
                         ],
                     },
