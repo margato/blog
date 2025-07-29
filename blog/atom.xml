@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://osvaldomargato.com/blog</id>
-    <title>Osvaldo Margato Blog</title>
+    <title>Proof of Concepts, Articles and more... Blog</title>
     <updated>2023-02-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://osvaldomargato.com/blog"/>
-    <subtitle>Osvaldo Margato Blog</subtitle>
-    <icon>https://osvaldomargato.com/img/favicon.ico</icon>
+    <subtitle>Proof of Concepts, Articles and more... Blog</subtitle>
+    <icon>https://osvaldomargato.com/img/logo.svg</icon>
     <entry>
         <title type="html"><![CDATA[Implementando loop sequencial condicional no AWS Step Functions]]></title>
         <id>https://osvaldomargato.com/blog/aws-step-functions-sequential-loop</id>
