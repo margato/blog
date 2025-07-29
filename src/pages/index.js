@@ -98,7 +98,7 @@ export default function Home() {
                             <p className="header-subtitle">A collection of articles, proof-of-concepts, and code samples covering software architecture, cloud infrastructure, and design patterns.</p>
                             <a
                                 className="button--primary"
-                                href="/blog"
+                                href="/library"
                             >
                                 Get Started
                             </a>

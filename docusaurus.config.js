@@ -10,8 +10,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Proof of Concepts, Articles and more...',
-    tagline: '',
+    title: 'Osvaldo Margato',
+    tagline: 'Proof of Concepts, Articles and more...',
     favicon: 'img/logo.svg',
     headTags: [
         {
@@ -106,6 +106,11 @@ const config = {
                     {
                         to: '/library',
                         label: 'Library',
+                        position: 'left'
+                    },
+                    {
+                        to: '/library/tags',
+                        label: 'Tags',
                         position: 'left'
                     },
                 ],

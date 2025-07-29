@@ -4,7 +4,7 @@ import { useLocation } from '@docusaurus/router';
 
 export default function BlogPostItemWrapper(props) {
     const location = useLocation();
-    const isBlogHome = location.pathname === '/blog';
+    const isBlogHome = location.pathname === '/library';
 
     return (
         <>
