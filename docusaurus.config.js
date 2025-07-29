@@ -77,6 +77,8 @@ const config = {
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
                     onUntruncatedBlogPosts: 'warn',
+                    blogSidebarTitle: 'All articles',
+                    blogSidebarCount: 'ALL',
                 },
                 theme: {
                     customCss: './src/css/custom.css',
