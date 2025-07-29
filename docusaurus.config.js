@@ -68,6 +68,7 @@ const config = {
             ({
                 docs: false,
                 blog: {
+                    routeBasePath: "/library",
                     showReadingTime: true,
                     feedOptions: {
                         type: ['rss', 'atom'],
@@ -103,8 +104,8 @@ const config = {
                 },
                 items: [
                     {
-                        to: '/blog',
-                        label: 'Blog',
+                        to: '/library',
+                        label: 'Library',
                         position: 'left'
                     },
                 ],
