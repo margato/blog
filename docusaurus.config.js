@@ -10,34 +10,44 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Osvaldo Margato',
-    tagline: 'Dinosaurs are cool',
-    favicon: 'img/favicon.ico',
+    title: 'Proof of Concepts, Articles and more...',
+    tagline: '',
+    favicon: 'img/logo.svg',
+    headTags: [
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'mask-icon',
+                href: '/img/logo-safari.png',
+                color: '#bbb3ff',
+            },
+        },
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'apple-touch-icon',
+                href: '/img/logo.png',
+            },
+        },
+    ],
 
-    // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
     future: {
-        v4: true, // Improve compatibility with the upcoming Docusaurus v4
+        v4: true,
     },
 
-    // Set the production url of your site here
     url: 'https://osvaldomargato.com',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
 
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'margato', // Usually your GitHub org/user name.
-    projectName: 'blog', // Usually your repo name.
+    organizationName: 'margato',
+    projectName: 'blog',
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
 
-    // Even if you don't use internationalization, you can use this field to set
-    // useful metadata like html lang. For example, if your site is Chinese, you
-    // may want to replace "en" with "zh-Hans".
+    plugins: [],
+
     i18n: {
-        defaultLocale: 'pt',
+        defaultLocale: 'en',
         locales: ['pt', 'en'],
         localeConfigs: {
             'pt': {
@@ -63,9 +73,6 @@ const config = {
                         type: ['rss', 'atom'],
                         xslt: true,
                     },
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
                     onUntruncatedBlogPosts: 'warn',
@@ -73,17 +80,23 @@ const config = {
                 theme: {
                     customCss: './src/css/custom.css',
                 },
+                gtag: {
+                    trackingID: 'G-5T0TTYC21F',
+                    anonymizeIP: true,
+                },
             }),
+
         ],
     ],
 
     themeConfig:
-        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
-            // Replace with your project's social card
+            colorMode: {
+                disableSwitch: true,
+            },
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: "Os",
+                title: "Osvaldo Margato",
                 logo: {
                     alt: 'Osvaldo Margato Logo',
                     src: 'img/logo.svg',
@@ -92,11 +105,7 @@ const config = {
                     {
                         to: '/blog',
                         label: 'Blog',
-                        position: 'right'
-                    },
-                    {
-                        type: 'localeDropdown',
-                        position: 'right',
+                        position: 'left'
                     },
                 ],
             },
@@ -104,24 +113,24 @@ const config = {
                 style: 'light',
                 links: [
                     {
-                        title: 'More',
+                        title: 'Discover more',
                         items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/margato/blog',
-                            },
                             {
                                 label: 'Linkedin',
                                 href: 'https://linkedin.com/in/margato',
                             },
+                            {
+                                label: 'GitHub',
+                                href: 'https://github.com/margato',
+                            },
+                            {
+                                label: 'This website is open source',
+                                href: 'https://github.com/margato/blog',
+                            },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Osvaldo Margato.`,
+                copyright: `This is a space for studies and knowledge sharing. © ${new Date().getFullYear()} Osvaldo Margato.`,
             },
             prism: {
                 theme: prismThemes.github,
