@@ -1,13 +1,12 @@
 ---
 slug: aws-lambda-finops-rds
 title: Economizando na AWS — Desligando recursos fora do horário comercial
-authors: margato
 tags: [aws, finops]
 ---
 
 A partir desse artigo, você conseguirá implementar um lambda na AWS para automatizar o desligamento de instâncias em 
 horários que não serão utilizadas.
-
+ 
 <!-- truncate -->
 
 
@@ -188,3 +187,8 @@ Podemos testar nossa aplicação na aba Test, com o seguinte payload:
 ![Execução da Lambda](./images/02-16-log.png)
 
 Todo o código mostrado nesse artigo está disponível por completo no [GitHub](https://github.com/margato/lambda-rds-startstop).
+
+
+import GiscusComments from '@site/src/components/GiscusComments'
+
+<GiscusComments /> 

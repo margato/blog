@@ -1,24 +1,34 @@
 aws:
-  label: aws
+  label: AWS
   permalink: /aws
   description: Amazon's cloud platform offering scalable infrastructure, secure services, and powerful tools for modern software development.
 
 distributed-systems:
-  label: distributed-systems
+  label: Distributed Systems
   permalink: /distributed-systems
   description: Architectures where multiple components operate across a network to deliver high availability, scalability, and fault tolerance.
 
 finops:
-  label: finops
+  label: FinOps
   permalink: /finops
   description: A framework that blends financial accountability and cloud operations to optimize costs, improve transparency, and drive business value.
 
 k8s:
-  label: k8s
+  label: Kubernetes
   permalink: /k8s
   description: Kubernetes is an open-source system for automating container deployment, scaling, and management across infrastructure.
 
+opa:
+  label: Open Policy Agent
+  permalink: /opa
+  description: A general-purpose policy engine that enables fine-grained access control and policy enforcement across cloud-native stacks.
+
+multi-tenant:
+  label: Multi-Tenant
+  permalink: /multi-tenant
+  description: Architecture pattern where a single software serves multiple customers (tenants) with strategies of data isolation and shared resources.
+
 aws-step-functions:
-  label: aws-step-functions
+  label: AWS Step Functions
   permalink: /aws-step-functions
   description: A serverless orchestration service by AWS for building reliable workflows using visual state machines and event-driven logic.

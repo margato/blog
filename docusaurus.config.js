@@ -66,19 +66,11 @@ const config = {
             'classic',
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
-                docs: false,
-                blog: {
+                docs: {
                     routeBasePath: "/library",
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: ['rss', 'atom'],
-                        xslt: true,
-                    },
-                    onInlineTags: 'warn',
-                    onInlineAuthors: 'warn',
-                    onUntruncatedBlogPosts: 'warn',
-                    blogSidebarTitle: 'All articles',
-                    blogSidebarCount: 'ALL',
+                    sidebarPath: './sidebars.js',
+                    sidebarCollapsible: true,
+                    sidebarCollapsed: true,
                 },
                 theme: {
                     customCss: './src/css/custom.css',
