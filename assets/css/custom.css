@@ -1,0 +1,109 @@
+.logo svg {
+  height: 30px;
+  margin-left: -20px;
+}
+
+.home h1 {
+  margin-top: 80px;
+}
+
+:root {
+  --color-primary-500: #8371ff;
+}
+
+.dark body {
+  background-color: #000;
+}
+
+#site-footer p {
+  font-size: 15px;
+}
+
+body {
+  background-color: #f9f9f9;
+
+  font-family:
+    'source serif 4',
+    charter,
+    bitstream charter,
+    georgia,
+    cambria,
+    times new roman,
+    serif;
+}
+
+body p {
+  font-size: 19px;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  hyphens: auto;
+}
+
+header h1 {
+  margin: auto;
+}
+
+.article-content,
+section {
+  margin: auto;
+  font-size: 1.05rem;
+}
+
+.main-menu {
+  margin-bottom: 30px;
+}
+
+#search-query {
+  border: none;
+  outline: none;
+  --tw-outline-style: none;
+  --tw-ring-color: transparent;
+}
+
+/* UL ocupa toda largura */
+#search-results {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Cada item ocupa toda largura */
+#search-results > li {
+  display: block;
+  width: 100%;
+}
+
+#search-results > li > a {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Conteúdo interno cresce corretamente */
+#search-results > li > a .grow {
+  flex: 1;
+}
+
+section.flex-auto {
+  width: 100%;
+  max-width: none;
+}
+
+.article-link--card a,
+.article-link--simple a {
+  color: rgba(var(--color-primary-600), 1);
+}
+
+.dark .article-link--card a,
+.dark .article-link--simple a {
+  color: rgba(var(--color-primary-400), 1);
+}
+
+.article-content ~ section > a:hover {
+  color: #000;
+  background: rgba(var(--color-neutral-200), 1);
+}
+
+.article-content a:hover {
+  text-decoration: underline;
+}

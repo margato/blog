@@ -1,0 +1,14 @@
+disabled = false
+languageCode = "pt"
+languageName = "Português"
+weight = 1
+title = "Osvaldo Margato"
+
+[params]
+displayName = "Português"
+isoCode = "pt-br"
+rtl = false
+dateFormat = "02/01/2006"
+logo = "images/logo.svg"
+description = "Minha biblioteca de conhecimento pessoal"
+copyright = "Copyright © 2026 Osvaldo Margato"

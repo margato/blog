@@ -1,0 +1,12 @@
+# Hugo build output
+public/
+resources/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.env
