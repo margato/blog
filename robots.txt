@@ -1,1 +1,3 @@
 User-agent: *
+Allow: /
+Sitemap: https://osvaldomargato.com/sitemap.xml
